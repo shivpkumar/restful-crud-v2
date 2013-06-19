@@ -1,0 +1,131 @@
+body {
+	background-color: #bdc3c7;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 1000px;
+  background-color: #ecf0f1;
+}
+
+.create_note_box {
+	position: fixed;
+	top: 0;
+	width: 80%%;
+	height: 170px;
+	margin: 0 auto;
+	z-index: 1;
+	padding: 20px;
+	background-color: #7f8c8d;
+	box-sizing: border-box;
+}
+
+.form_title {
+	width: 400px;
+	height: 40px;
+	padding-top: 5px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.form_content {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 600px;
+	height: 70px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.form_submit {
+	height: 40px;
+	width: 150px;
+	position: absolute;
+	top: 110px;
+	right: 20px;
+	box-shadow: none;
+	border: none;
+	background-color: #bdc3c7;
+}
+
+.all_note_container {
+	padding: 190px 20px 0 20px;
+	box-sizing: border-box;
+}
+
+.note_container {
+	position: relative;
+	padding: 30px;
+	margin-bottom: 20px;
+	background-color: #95a5a6;
+	box-sizing: border-box;
+}
+
+.note_title {
+	font-weight: 600;
+	font-size: 20px;
+	padding-right: 120px;
+	box-sizing: border-box;
+}
+
+.note_content {
+	margin-top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+}
+
+.edit_button {
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: #bdc3c7;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+}
+
+.delete_button, .confirm_button {
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background-color: #bdc3c7;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+}
+
+.edit_form_title {
+	width: 400px;
+	height: 40px;
+	padding-top: 5px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.edit_form_content {
+	width: 600px;
+	height: 70px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.edit_form_submit {
+	height: 40px;
+	width: 150px;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	box-shadow: none;
+	border: none;
+	background-color: #bdc3c7;
+}

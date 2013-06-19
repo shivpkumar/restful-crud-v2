@@ -1,0 +1,27 @@
+<% Note.all.each do |note| %>
+
+<div class="note_container">
+  <div class="note_title"><%= note.title %></div>
+  <div class="note_content"><%= note.content %></div>
+  <a class="edit_button" href="#">Edit</a>
+  <a class="delete_button" href="#">Delete</a>
+</div>
+
+<% end %>
+
+<div class="note_template" style="display: none;">
+  <div class="note_container">
+    <div class="note_title">Title</div>
+    <div class="note_content">Content</div>
+    <a class="edit_button" href="#">Edit</a>
+    <a class="delete_button" href="#">Delete</a>
+  </div>
+</div>
+
+<div class="edit_form_template" style="display: none;">
+  <form class="edit_note_form">
+    <input class="edit_form_title" type="text"><br><br>
+    <textarea class="edit_form_content" cols="50" rows="3"></textarea>
+    <input class="edit_form_submit" type="submit" value="Update note">
+  </form>
+</div>
